@@ -31,6 +31,7 @@ Technologies Used
 Contributing
 
 If you want to contribute to this project, feel free to fork it, make your changes, and open a pull request.
+
 License
 
 This project is open-source and available under the MIT License.
