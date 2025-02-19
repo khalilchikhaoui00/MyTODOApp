@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --background: #000430;
+    --secondaryBackground: #171c48;
+    --text: #fff;
+    --purple: #828dff;
+    --teal: #24feee;
+}
+body{
+    background-color: var(--background);
+    color: var(--text);
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 120px; 
+    max-width: 500px;
+    margin:120px auto 0 auto;
+}
+.stats-container{
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid var(--purple);
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    width: 100%;
+
+}
+.details{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--text);
+}
+
+    
+#progressBar {
+    width: 100%;
+    height: 10px;
+    background-color: var(--secondaryBackground);
+    border-radius: 5px;
+    margin-top: 15px;
+    overflow: hidden; 
+}
+
+#progress { 
+    width: 0%;
+    height: 100%;
+    background-color: var(--teal);
+    border-radius: 10px;
+    transition: all 0.3s ease;
+    position: relative;
+    left: 0%;
+        
+}
+#numbers {
+    width: 100px;
+    height: 100px;
+    background-color: var(--purple);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-size: 30px;
+    font-weight: bold;
+}
+form {
+    margin: 60px;
+    width: 100%;
+    display: flex;  
+}
+input {
+    flex:1;
+    width: 580px;
+    padding: 15px;
+    background: var(--secondaryBackground);
+    border: 2px solid var(--purple);
+    border-radius: 10px;
+    font-size: 18px; 
+    color: white; 
+    caret-color: white; 
+}
+button{    
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--purple);
+    color: var(--text);
+    font-size: 30px;
+    font-weight: bold;
+    outline: none;
+}
+.taskItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: var(--secondaryBackground);
+    padding: 10px;
+    margin: 10x 0;
+    border-radius: 5px;
+    color: var(--text);
+    gap:20px;
+    width:100%;
+}
+
+.task p {
+    font-family: "Poppins", sans-serif;
+    font-size: 18px; 
+    font-weight: 500; 
+    color: var(--text); 
+    margin-left: 10px;
+}
+
+.icons img {
+    margin-left: 10px;;
+}
+
+#taskForm {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+#taskInput {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid var(--purple);
+}
+.task {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.checkbox {
+    width: 22px;
+    height: 22px;
+    cursor: pointer;
+    accent-color: var(--purple);
+}
+.icons {
+    display: flex;
+    gap: 0px; 
+    align-items: center;
+}
+.task.completed p {
+    text-decoration: line-through;
+    color: var(--purple);
+}
