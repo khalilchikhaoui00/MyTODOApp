@@ -16,22 +16,22 @@ To run this project locally, follow these steps:
    ```bash
    git clone https://github.com/khalilchikhaoui00/MyTODOApp.git
    
-Navigate to the project folder:
+2.Navigate to the project folder:
 
     cd MyTODOApp
 
-    Open the index.html file in your browser.
+3.Open the index.html file in your browser.
 
-Technologies Used
+## Technologies Used
 
     HTML5
     CSS3
     JavaScript (Vanilla JS)
 
-Contributing
+## Contributing
 
 If you want to contribute to this project, feel free to fork it, make your changes, and open a pull request.
 
-License
+## License
 
 This project is open-source and available under the MIT License.
